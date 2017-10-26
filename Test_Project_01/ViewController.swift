@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = UIColor.red;
         self.view.backgroundColor = UIColor.blue;
+        
+        var array:[String] = Array()
+        array.append("1")
+        print(array)
     }
 
     override func didReceiveMemoryWarning() {
